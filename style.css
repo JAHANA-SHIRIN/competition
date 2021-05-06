@@ -37,7 +37,7 @@ header{
     left: 0;
     padding: 50px;
     transform: translate(50%,50%);
-    background-image: url(image/abdusamad.jpg);
+    background-image: url(abdusamad.jpg);
     animation-name: slider;
     animation-duration: 25s;
     animation-iteration-count: infinite;
@@ -47,25 +47,25 @@ header{
 
 @keyframes slider {
     1%{
-        background-image:url(image/abdusamad.jpg) ;
+        background-image:url(abdusamad.jpg) ;
     }
 25%{
-    background-image: url(image/mansoor.jpg); 
+    background-image: url(mansoor.jpg); 
 }
 40%{
-    background-image: url(image/DIVYA\ MC.jpg);
+    background-image: url(DIVYA\ MC.jpg);
 }
 60%{
-background-image: url( image/haneesh1.jpg);
+background-image: url( haneesh1.jpg);
 }
 80%{
-    background-image: url(image/manjd.jpg);
+    background-image: url(manjd.jpg);
 }
 100%{
-    background-image: url(image/alka1.jpg);
+    background-image: url(alka1.jpg);
 }
 120%{
-    background-image: url(image/arshad\ p\ t.jpg);
+    background-image: url(arshad\ p\ t.jpg);
     
 }
 }
