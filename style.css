@@ -33,7 +33,7 @@ header{
     border-radius: 100%;
     background-color: black;
     position:absolute;
-    top: 40%;
+    top: 50%;
     left: 0;
     padding: 50px;
     transform: translate(50%,50%);
@@ -77,7 +77,7 @@ background-image: url( haneesh1.jpg);
     top: 60%;
     left: 10%;
     text-align: justify;
-padding: 10px;
+padding: 3rem;
 
     
     text-align: left;
@@ -104,7 +104,7 @@ padding: 10px;
 
 .image{
     position: absolute;
-    top: 100%;
+    top: 120%;
 }
 
 
@@ -131,7 +131,6 @@ padding: 10px;
     left:300px;
     
 }
-
 #text{
     position: absolute;
     text-align: center;
@@ -170,7 +169,9 @@ padding: 1px;
     position: relative;
     left: 65%;
     border: 10px;
-    border-radius: 10px;
+    border-radius: 1rem;
+    top: -10%;
+   color: #000000;
 }
 
 
@@ -550,3 +551,57 @@ padding: 1px;
                     font-weight: 800;
                 }
 
+                body {font-family: Arial, Helvetica, sans-serif;}
+        
+        .navbar {
+          width: 100%;
+          background-color: #555;
+          overflow: auto;
+          
+        }
+        
+        .navbar a {
+          float: left;
+          padding: 15px;
+          color: white;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .navbar a:hover {
+          background-color: #000;
+        }
+        
+        .active {
+          background-color: #1ead3d;
+        }
+        
+        @media screen and (max-width: 500px) {
+          .navbar a {
+            float: none;
+            display: block;
+          }
+        }
+
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            
+          }  
+          li{
+            float: left;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 16px;
+         background-color: white;
+         border-radius: 2px;
+            text-decoration: underline;
+          }
+          li a:hover{
+            background-color:white;
+          }
+
+          
